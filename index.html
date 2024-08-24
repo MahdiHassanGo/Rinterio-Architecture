@@ -20,7 +20,8 @@
                 "Card2-Color":'rgb(239, 218, 110);',
                 "Card3-Color":'rgb(164, 218, 195)',
                 "Card4-Color":'rgb(119, 170, 234)',
-                "Secondary-Background":'#FF9100',
+                "Secondary-Background":'#C9DABF',
+                "Footer":'rgb(28, 28, 28)',
                 
               },
               backgroundImage:{
@@ -216,7 +217,7 @@
     <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
   </div>
 <!-- top grid  -->
-  <div class="ml-0  lg:ml-9  grid grid-cols-6 gap-6 grid-rows-1  ">
+  <div class="ml-0  lg:ml-20  grid grid-cols-6 gap-6 grid-rows-1  ">
     <div class="ml-0 lg:ml-20  col-span-12 md:col-span-6 lg:col-span-5 grid grid-cols-1 md:grid-cols-12 gap-4">
       <div class=" col-span-8 bg-white rounded-lg shadow-md overflow-hidden p-4 flex flex-col lg:flex-row gap-5">
         <div class="">
@@ -277,7 +278,7 @@
                  Modern Urban<br />
                 Residential Complex
               </h2>
-              <p class="text-xl">
+              <p class="text-sm lg:text-xl">
             This buidling features a contemporary <br>
              urban design witha a mix of <br>
               materials.absolute
@@ -293,10 +294,10 @@
             </div>
           </div>
           <div
-            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between "
           >
-            <a href="#slide3" class="btn btn-circle">❮</a>
-            <a href="#slide2" class="btn btn-circle">❯</a>
+            <a href="#slide3" class="btn btn-circle opacity-30 lg:opacity-100 ">❮</a>
+            <a href="#slide2" class="btn btn-circle opacity-30 lg:opacity-100">❯</a>
           </div>
         </div>
         <!-- Slide 2 -->
@@ -305,15 +306,14 @@
             <!-- text content -->
             <div class="space-y-7 flex-1">
               <h2 class="text-3xl font-extrabold">
-                Modern Urban<br />
-               Residential Complex
+                Apartment<br />
+               Complex
              </h2>
              <p class="text-xl">
-           This buidling features a contemporary <br>
-            urban design witha a mix of <br>
-             materials.absolute
-             <br>
-           including brick and metal cladding.
+           This buidling features a Modern apartment design <br>
+            with  vibrant lighting that <br>
+            enhances its sleek,boxy structure.
+           
              
              </p>
               <button class="btn bg-Primary-Btn text-black">Purchase</button>
@@ -326,8 +326,8 @@
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >
-            <a href="#slide1" class="btn btn-circle">❮</a>
-            <a href="#slide3" class="btn btn-circle">❯</a>
+            <a href="#slide1" class="btn btn-circle opacity-30 lg:opacity-100">❮</a>
+            <a href="#slide3" class="btn btn-circle opacity-30 lg:opacity-100">❯</a>
           </div>
         </div>
         <!-- Slide 3 -->
@@ -336,13 +336,13 @@
             <!-- text content -->
             <div class="space-y-7 flex-1">
               <h2 class="text-3xl font-extrabold">
-                Modern Urban<br />
-               Residential Complex
+                Corporate Office<br />
+              Bulding
              </h2>
              <p class="text-xl">
-           This buidling features a contemporary <br>
-            urban design witha a mix of <br>
-             materials.absolute
+           This buidling features a Clean <br>
+            and minimalistic design witha large glass of <br>
+             windows and white paneling
              <br>
            including brick and metal cladding.
              
@@ -357,13 +357,73 @@
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >
-            <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
+            <a href="#slide2" class="btn btn-circle opacity-30 lg:opacity-100">❮</a>
+            <a href="#slide1" class="btn btn-circle opacity-30 lg:opacity-100">❯</a>
           </div>
         </div>
       </div>
 </section>
 
+<!-- Let's Discuss Section  -->
+     
+       <section class="bg-gray-100 rounded-lg p-8">
+        <div class="text-center mb-8">
+          <button class="btn btn-outline btn-sm mb-4 rounded-full font-bold bg-lime-100"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>Let's connect</button>
+          <h2 class="text-4xl font-extrabold text-black mb-4">Let's Discuss Next Project</h2>
+          <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+<!-- form  -->
+            <div>    
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
+                            
+                            <input type="name" class="input input-bordered w-full rounded-full lg:col-start-2 lg:col-span-2" placeholder="First Name*" required>
+                            <input type="name" class="input input-bordered w-full rounded-full lg:col-start-4 lg:col-span-2" placeholder="Last Name*" required>
+                            
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
+
+                          <input type="number" class="input input-bordered w-full rounded-full lg:col-start-2 lg:col-span-2" placeholder="Phone Number*" required>
+                          <input type="email" class="input input-bordered w-full rounded-full lg:col-start-4 lg:col-span-2" placeholder="Email*" required>
+
+                        </div>
+
+                        <div class="ml-0 lg:ml-60">
+                         <textarea placeholder="Write your message here" class="textarea textarea-bordered w-full lg:w-4/5 h-32 rounded-lg"></textarea>
+                        </div>
+
+                        <div class="ml-0 lg:ml-60">
+                          <button class="btn bg-Primary-Btn text-black font-bold py-3 rounded-full w-full lg:w-4/5" type="submit">Send Mail<i class="fa-solid fa-arrow-up rotate-45 bg-black text-Primary-Btn  px-2 py-2 rounded-full"></i></button>
+                        </div>
+
+                    </form>
+                
+            </div>
+        
+    </section>
     </main>
+
+    <!-- footer  -->
+    <footer class="bg-Footer py-20 text-center mt-16">
+      <div class="text-center mb-8">
+        
+        <h2 class="text-3xl font-extrabold text-white mb-4"><i class="fa-solid fa-arrow-up rotate-45 bg-Primary-Btn text-black px-2 py-2 rounded-full"></i> Rinterio</h2>
+        <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+
+          <ul class="menu menu-horizontal px-1 text-white mb-4 flex-col lg:flex-row lg:gap-32 lg:mt-8 ">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+
+        <div class="flex justify-center">
+          <button class="btn bg-Primary-Btn text-black font-bold rounded-full mt-0 lg:mt-8">Book Consult<i class="fa-solid fa-circle-arrow-up rotate-45"></i></button>
+        </div>
+          
+      </div>
+    </footer>
 </body>
 </html>
