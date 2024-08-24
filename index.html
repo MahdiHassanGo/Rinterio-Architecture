@@ -20,10 +20,12 @@
                 "Card2-Color":'rgb(239, 218, 110);',
                 "Card3-Color":'rgb(164, 218, 195)',
                 "Card4-Color":'rgb(119, 170, 234)',
+                "Secondary-Background":'#FF9100',
                 
               },
               backgroundImage:{
                  "Primary-Background":'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);',
+                 
               },
               fontFamily:{
             manrope:['Manrope','sans-serif'],
@@ -163,7 +165,7 @@
 
 
 <!-- how we work  -->
-<section class="bg-gray-100 rounded-lg p-8 md:container mx-auto px-10">
+<section class="bg-gray-100 rounded-lg p-8  md:container mx-auto px-10">
   <div class="text-center mb-8">
     <button class="btn btn-outline btn-sm mb-4 font-bold rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></svg>How we work</button>
     <h2 class="text-4xl font-extrabold text-black mb-4">Our works process</h2>
@@ -234,7 +236,7 @@
   </div>
 
 <!-- bottom grid  -->
-   <div class="ml-0 lg:ml-12 grid grid-cols-1 md:grid-cols-10 gap-6  mt-6">
+   <div class="ml-0 lg:ml-12 grid grid-cols-1 md:grid-cols-10 gap-6  mt-6  mb-24">
             
     <div class="bg-white border rounded-lg shadow-sm p-4 flex justify-center items-center col-span-12 lg:col-span-2">
       <img class="rounded-lg w-full object-cover" src="assets/img3.png" alt="">
@@ -257,6 +259,110 @@
     </div>
  </section>
 
+<!-- unique section  -->
+<section class=" rounded-lg p-8 md:container mx-auto px-10">
+  <div class="text-center mb-8">
+    
+    <h2 class="text-4xl font-extrabold text-black mb-4">Samples of our Work </h2>
+    <p class="text-gray-600">Here's our some of the recent projects. You can check if you want to know more</p>
+  </div>
+      <!-- Slider/Carousel -->
+      <div class="carousel w-full lg:h-[550px] bg-Secondary-Background">
+        <!-- Slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full flex justify-center items-center">
+          <div class="flex flex-col lg:flex-row p-12 justify-center lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h2 class="text-3xl font-extrabold">
+                 Modern Urban<br />
+                Residential Complex
+              </h2>
+              <p class="text-xl">
+            This buidling features a contemporary <br>
+             urban design witha a mix of <br>
+              materials.absolute
+              <br>
+            including brick and metal cladding.
+              
+              </p>
+              <button class="btn bg-Primary-Btn text-black">Purchase</button>
+            </div> 
+            <!-- image content -->
+            <div class="flex-1 ">
+              <img src="./assets/Slider1.png" class="w-[400px] " />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full flex justify-center items-center">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h2 class="text-3xl font-extrabold">
+                Modern Urban<br />
+               Residential Complex
+             </h2>
+             <p class="text-xl">
+           This buidling features a contemporary <br>
+            urban design witha a mix of <br>
+             materials.absolute
+             <br>
+           including brick and metal cladding.
+             
+             </p>
+              <button class="btn bg-Primary-Btn text-black">Purchase</button>
+            </div>
+            <!-- image content -->
+            <div class="flex-1">
+              <img src="./assets/Slider-2.webp" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full flex justify-center items-center">
+          <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+            <!-- text content -->
+            <div class="space-y-7 flex-1">
+              <h2 class="text-3xl font-extrabold">
+                Modern Urban<br />
+               Residential Complex
+             </h2>
+             <p class="text-xl">
+           This buidling features a contemporary <br>
+            urban design witha a mix of <br>
+             materials.absolute
+             <br>
+           including brick and metal cladding.
+             
+             </p>
+              <button class="btn bg-Primary-Btn text-black">Purchase</button>
+            </div>
+            <!-- image content -->
+            <div class="flex-1">
+              <img src="./assets/Slider-3.jpg" class="w-[400px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+</section>
 
     </main>
 </body>
